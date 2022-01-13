@@ -1,13 +1,13 @@
 #contenedor video{
-	max-width: 640px;
+	max-width: 100%;
 	width: 100%;
 }
 #contenedor{
-	max-width: 640px;
+	max-width: 100%;
 	position:relative;
 }
 canvas{
-	max-width: 640px;
+	max-width: 100%;
 }
 canvas.drawingBuffer{
 	position:absolute;

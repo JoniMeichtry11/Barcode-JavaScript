@@ -12,8 +12,33 @@ document.addEventListener("DOMContentLoaded", () => {
 		},
 		decoder: {
 			readers: [
-				"code_128_reader"
-			]
+				"code_128_reader",
+				"ean_reader",
+				"ean_8_reader",
+				"code_39_reader",
+				"code_39_vin_reader",
+				"codabar_reader",
+				"upc_reader",
+				"upc_e_reader",
+				"i2of5_reader"
+			],
+			halfSample: true,
+  			patchSize: "large", // x-small, small, medium, large, x-large		
+			debug: {
+				showCanvas: false,
+				showPatches: false,
+				showFoundPatches: false,
+				showSkeleton: false,
+				showLabels: false,
+				showPatchLabels: false,
+				showRemainingPatchLabels: false,
+				boxFromPatches: {
+					showTransformed: false,
+					showTransformedBox: false,
+					showBB: false
+				}
+			},
+			multiple: false
 		}
 	}, function (err) {
 		if (err) {

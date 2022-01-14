@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				"i2of5_reader"
 			],
 			halfSample: true,
-  			patchSize: "large", // x-small, small, medium, large, x-large		
+  			patchSize: "x-large", // x-small, small, medium, large, x-large		
 			debug: {
 				showCanvas: false,
 				showPatches: false,

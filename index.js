@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			target: document.querySelector('#contenedor'), // Donde se va a colocar el video de la "Cam"
 		},
 		decoder: {
-			readers: ["i2of5_reader"]
+			readers: ["2of5_reader"]
 		}
 	}, function (err) {
 		if (err) {
